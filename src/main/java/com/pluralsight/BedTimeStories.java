@@ -36,7 +36,9 @@ public class BedTimeStories {
         } catch (Exception e) {
             //throw new RuntimeException(e);
 
-            e.printStackTrace();
+            System.out.println("file not found.");
+
+            //e.printStackTrace();
 
         }
 
