@@ -17,7 +17,7 @@ public class BedTimeStories {
 
         try {
             FileReader fileReader = new FileReader(fileName);
-            BufferedReader bufferedReader = new BufferedReader(fileName);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             String line = bufferedReader.readLine();
 
