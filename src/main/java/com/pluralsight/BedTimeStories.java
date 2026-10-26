@@ -44,5 +44,7 @@ public class BedTimeStories {
 
         scanner.close();
 
+        System.out.println("See you Again!");
+
     }
 }
