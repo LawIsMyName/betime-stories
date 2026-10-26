@@ -3,13 +3,14 @@ package com.pluralsight;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class BedTimeStories {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
         try {
-            FileReader fileReader = new FileReader("goldilocks.txt");
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            FileReader fileReader = new FileReader(fileName);
+            BufferedReader bufferedReader = new BufferedReader(fileName);
 
             String line = bufferedReader.readLine();
 
