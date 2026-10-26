@@ -11,6 +11,13 @@ public class BedTimeStories {
 
         String line = bufferedReader.readLine();
 
+        while (line != null) {
+            System.out.println("line");
+            line = bufferedReader.readLine();
+        }
+
+
+
 
 
 
