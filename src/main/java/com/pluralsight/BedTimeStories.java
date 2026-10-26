@@ -9,6 +9,9 @@ public class BedTimeStories {
         FileReader fileReader = new FileReader("goldilocks.txt");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
+        String line = bufferedReader.readLine();
+
+
 
 
 
