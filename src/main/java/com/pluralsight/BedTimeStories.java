@@ -13,6 +13,8 @@ public class BedTimeStories {
         String fileName = scanner.nextLine();
 
         int lineNumber = 1;
+
+
         try {
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader = new BufferedReader(fileName);
@@ -21,8 +23,12 @@ public class BedTimeStories {
 
             while (line != null) {
 
-                System.out.println(line);
+                System.out.println(lineNumber + ". " + line);
+
+                lineNumber++;
+
                 line = bufferedReader.readLine();
+
             }
 
             bufferedReader.close();
@@ -33,6 +39,8 @@ public class BedTimeStories {
             e.printStackTrace();
 
         }
+
+        scanner.close();
 
     }
 }
