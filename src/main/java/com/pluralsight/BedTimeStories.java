@@ -16,6 +16,9 @@ public class BedTimeStories {
             line = bufferedReader.readLine();
         }
 
+        bufferedReader.close();
+
+
 
 
 
