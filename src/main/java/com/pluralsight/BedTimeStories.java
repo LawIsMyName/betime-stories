@@ -8,6 +8,11 @@ import java.util.Scanner;
 public class BedTimeStories {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the story file name: ");
+        String fileName = scanner.nextLine();
+
+
         try {
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader = new BufferedReader(fileName);
