@@ -14,17 +14,19 @@ public class BedTimeStories {
             String line = bufferedReader.readLine();
 
             while (line != null) {
-                System.out.println("line");
+
+                System.out.println(line);
                 line = bufferedReader.readLine();
             }
 
             bufferedReader.close();
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             //throw new RuntimeException(e);
 
-        }
+            e.printStackTrace();
 
+        }
 
     }
 }
