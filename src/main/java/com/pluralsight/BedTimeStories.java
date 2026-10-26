@@ -12,7 +12,7 @@ public class BedTimeStories {
         System.out.println("Enter the story file name: ");
         String fileName = scanner.nextLine();
 
-
+        int lineNumber = 1;
         try {
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader = new BufferedReader(fileName);
